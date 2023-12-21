@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    background-color: aliceblue;
+    /*E3863B*/
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    background-color: #d83b34;
+    font-family: 'Elephant';
+    font-size: 60px;
+    position: relative;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+}
+
+
+#beneficios{
+    padding-top: 6%;
+}
+
+#qualidade{
+    padding-top: 6%;
+}
+
+#fabricacao{
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}
+
+
+.headline{
+    top: 0;
+    margin-top: 0;
+    width: 1060px;
+}
+
+.subTitulo{
+    font-size: 47px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+.conteudoHeadLine{
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Comic Sans MS';
+}
+
+button{
+    margin-top: 20px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    border-radius: 12px;
+    font-family: 'Artifakt Element';
+    font-size: 30px;
+    border: none;
+}
+
+#home{
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+#logo{
+    padding-left: 15%;
+}
+
+.menu {
+    display: inline-block;
+    
+}
+
+#barraNav{
+    position: fixed;
+    background-color:black;
+    list-style-type: none; /*remove marcadores da lista*/
+    margin: 0;/*remove espaço ao redor*/
+    padding: 0;
+    overflow: hidden;/*esconde o conteúdo que for maior  que o tamanho da borda*/
+    height: 40px;
+    z-index: 1000;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+
+li a{
+    color: white;
+    display: inline-block;/* divide a tag em blocos*/
+    background-color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;/*retira o traçado do link*/
+    width: 160px;
+}
+li a:hover{/*altera a cor do link ao passar o mouse*/
+    background: black;
+    color:white;
+    text-decoration: underline blue 2px;
+}
+
+h3{
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+}
+
+p{
+    font-family: 'Comic Sans MS';
+    margin-left: 10px;
+    margin-bottom: 2;
+    margin-top: 1px;
+    margin-right: 10px;
+    font-size: 21px;
+    text-align: justify;
+}
+
+.fabricacao{
+    margin-left: 8%;
+    margin-right: 8%;
+    width: 330px;
+    height: auto;
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+
